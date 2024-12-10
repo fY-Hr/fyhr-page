@@ -20,7 +20,7 @@ export default function Home() {
 
           <div className="flex gap-3 mt-7">
             <Link href="/me" className="border border-blue-900 bg-slate-50 flex gap-2 hover:bg-blue-900 hover:text-white transition-all duration-300 text-sm text-md px-4 py-2 shadow-md">see more<HiArrowRight className="self-center" /></Link>
-            <h1 className="select-none py-1  text-sm md:text-md md:py-2">to my page</h1>
+            <h1 className="select-none py-1 text-sm md:text-md md:py-2 self-center">to my page</h1>
           </div>
         
       </div>
