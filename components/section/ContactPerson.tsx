@@ -22,7 +22,7 @@ export default function ContactPerson(){
         <>
             
             {contacts.map((contact, index) => (
-                <Link href={contact.link} className="text-md flex items-center gap-2 border border-blue-900 px-4 py-2 hover:bg-blue-900 hover:text-blue-500">{contact.source} <IoIosLink /></Link>
+                <Link key={index} href={contact.link} className="text-md flex items-center gap-2 border border-blue-900 px-4 py-2 hover:bg-blue-900 hover:text-blue-500">{contact.source} <IoIosLink /></Link>
             ))}
             
         </>

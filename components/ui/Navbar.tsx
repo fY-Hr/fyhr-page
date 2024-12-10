@@ -1,3 +1,5 @@
+'use client'
+
 import { usePathname } from "next/navigation"
 import Link from "next/link";
 import {clsx} from 'clsx';
@@ -7,8 +9,10 @@ import {clsx} from 'clsx';
 export default function Navbar(){
 
     const pathname = usePathname();
-
+    const homePage = pathname === '/';
     return(
+        <>
+        {!homePage && 
         <>
         <nav className="pt-4 pb-2 fixed bg-white/55 w-screen backdrop-blur-lg">
             <div className="nav-content container mx-auto lg:px-32 xl:px-64 px-7  flex justify-between">
@@ -24,6 +28,8 @@ export default function Navbar(){
             </div>
         </nav>
         <div className="replacer pt-8 "></div>
+        </>
+        }
         </>
     )
 }
