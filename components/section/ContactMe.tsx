@@ -17,7 +17,7 @@ const contacts: Contact[] = [
     }
 ]
 
-export default function ContactPerson(){
+export default function ContactMe(){
     return(
         <>
             

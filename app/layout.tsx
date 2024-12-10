@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   description: 'fY-Hr Personal Page'
 }
 
-
 export default function RootLayout({
   children,
 }: {

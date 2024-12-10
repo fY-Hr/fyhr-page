@@ -4,7 +4,7 @@ import Footer from "@/components/ui/Footer";
 import Image from "next/image";
 import SectionCard from "@/components/ui/SectionCard";
 import DeveloperTools from "@/components/section/DeveloperTools";
-import ContactPerson from "@/components/section/ContactPerson";
+import ContactMe from "@/components/section/ContactMe";
 
 import ageConverter from "@/lib/ageConverter";
 
@@ -17,12 +17,12 @@ export default function Me(){
       <>
         <div className=" flex flex-col justify-between h-screen mt-4">
             <main className="my-8">
-                <div className="hero-container w-full h-40 overflow-hidden mt-4">
+                <div className="hero-container w-full h-40 overflow-hidden animate-fadeUp ">
                     <Image src="/yoneyama.jpeg" priority={true} width={600} height={600} alt="yoneyama art" className="w-full object-cover" />
                 </div>
-                <h1 className="mb-7 text-sm">yoneyama mai art. (my fav illustrator)</h1>
+                <h1 className="mb-7 text-sm animate-fadeUp">yoneyama mai art. (my fav illustrator)</h1>
 
-                <div className="about-container sm:flex-row flex flex-col gap-4 justify-between border-b-2 border-blue-900 pb-4">
+                <div className="about-container sm:flex-row flex flex-col gap-4 justify-between border-b-2 border-blue-900 pb-4 animate-fadeUpLong">
                     <div className="about-text">
                         <SectionCard 
                             title="Muhammad Fakhry Haidar."
@@ -37,7 +37,7 @@ export default function Me(){
                     </div>
                 </div>
 
-                <div className="developing-tools-container mt-4 border-b-2 border-blue-900 pb-5">
+                <div className="developing-tools-container mt-4 border-b-2 border-blue-900 pb-5 animate-fadeUpVeryLong">
                     <SectionCard 
                         title="Developing Tools."
                         subtitle="Tools that i mainly use as a Web Developer."
@@ -48,14 +48,14 @@ export default function Me(){
                     </div>
                 </div>
 
-                <div className="contact-person-container mt-4">
+                <div className="contact-person-container mt-4 animate-fadeUpLast">
                     <SectionCard 
-                        title="Contact Person."
+                        title="Contact Me."
                         subtitle="It is my pleasure to connect with more people."
                         description=""
                     />
                     <div className="flex">
-                        <ContactPerson />
+                        <ContactMe />
                     </div>
                 </div>
 
