@@ -7,8 +7,8 @@ import Head from 'next/head';
 import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
-  title: 'fY.Hr',
-  description: 'fY.Hr Personal Page'
+  title: 'fY-Hr',
+  description: 'fY-Hr Personal Page'
 }
 
 

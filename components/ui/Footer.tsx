@@ -3,7 +3,7 @@ export default function Footer(){
         <>
             <footer className="py-2 flex justify-between">
                 <p>© {new Date().getFullYear()} </p>
-                <p>fY.Hr</p>
+                <p>fY-Hr</p>
             </footer>
         </>
     )
