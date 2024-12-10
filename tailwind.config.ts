@@ -14,7 +14,7 @@ export default {
       },
       keyframes: {
         fadeUp: {
-          '0%': { opacity: '0', transform: 'translateY(30px)'},
+          '0%': { opacity: '0', transform: 'translateY(35px)'},
           '100%': { opacity: '1', transform: 'translateY(0px)'},
         },
         fadeDown: {
