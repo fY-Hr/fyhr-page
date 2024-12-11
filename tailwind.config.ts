@@ -23,7 +23,7 @@ export default {
         }
       },
       animation: {
-        fadeUp: 'fadeUp 0.3s ease-out',
+        fadeUp: 'fadeUp 0.4s ease-out',
         fadeUpLong: 'fadeUp 0.6s ease-out',
         fadeUpVeryLong: 'fadeUp 0.9s ease-out',
         fadeUpLast: 'fadeUp 1.2s ease-out',
@@ -33,6 +33,8 @@ export default {
         fadeDownLong: 'fadeDown 0.6s ease-out',
         fadeDownVeryLong: 'fadeDown 0.9s ease-out',
         fadeDownLast: 'fadeDown 1.2s ease-out',
+
+        pulseOne: 'pulse 0.7s',
       },
     },
   },

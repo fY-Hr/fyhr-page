@@ -10,6 +10,7 @@ export default function Navbar(){
 
     const pathname = usePathname();
     const homePage = pathname === '/';
+    
     return(
         <>
         {!homePage && 

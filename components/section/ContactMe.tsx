@@ -22,7 +22,7 @@ export default function ContactMe(){
         <>
             
             {contacts.map((contact, index) => (
-                <Link key={index} href={contact.link} className="text-md flex items-center gap-2 border border-blue-900 px-4 py-2 hover:bg-blue-900 hover:text-blue-500 underline">{contact.source} <IoIosLink /></Link>
+                <Link key={index} href={contact.link} className="text-md flex text-lime-800 items-center gap-2 border border-lime-800 hover:border-lime-300 px-4 py-2 hover:bg-blue-900 hover:text-lime-300 underline">{contact.source} <IoIosLink /></Link>
             ))}
             
         </>

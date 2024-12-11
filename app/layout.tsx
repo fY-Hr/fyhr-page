@@ -2,7 +2,7 @@ import { lusitana } from '../styles/fonts';
 import "../styles/globals.css";
 
 import Navbar from '@/components/ui/Navbar';
-import Head from 'next/head';
+import Footer from '@/components/ui/Footer';
 
 import type { Metadata } from 'next'
  
@@ -18,13 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <body className={`${lusitana.className} antialiased text-blue-900 w-screen`}>
+      <link rel="icon" href="/favicon.ico" />
+      <body className={`${lusitana.className} antialiased text-blue-900 w-screen bg-fixed bg-gradient-to-b from-white to-slate-300`}>
         <Navbar />
-        <div  className="container mx-auto lg:px-32 xl:px-64 px-7">
+        <div  className="container mx-auto lg:px-32 xl:px-64 px-7 flex flex-col justify-between h-screen mt-4">
           {children}
+          <Footer />
         </div>
       </body>
     </html>

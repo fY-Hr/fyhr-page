@@ -15,9 +15,9 @@ export default function Me(){
 
     return (
       <>
-        <div className=" flex flex-col justify-between h-screen mt-4">
+        <div>
             <main className="my-8">
-                <div className="hero-container w-full h-40 overflow-hidden animate-fadeUp ">
+                <div className="hero-container w-full h-40 overflow-hidden animate-fadeUp">
                     <Image src="/yoneyama.jpeg" priority={true} width={600} height={600} alt="yoneyama art" className="w-full object-cover" />
                 </div>
                 <h1 className="mb-7 text-sm animate-fadeUp">yoneyama mai art. (my fav illustrator)</h1>
@@ -60,7 +60,6 @@ export default function Me(){
                 </div>
 
             </main>
-            <Footer />
         </div>
       </>
     );

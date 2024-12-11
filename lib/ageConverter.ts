@@ -5,7 +5,7 @@ export default function ageConverter(birthDate: string){
     let age: number =  today.getFullYear() - birth.getFullYear();
     const month: number = birth.getMonth() - today.getMonth();
 
-    if(month < 0 || (month === 0 && today.getDate() < birth.getDate())){
+    if(month < 0 || (month === 0 && today.getDate() <= birth.getDate())){
         return age--
     }
 
