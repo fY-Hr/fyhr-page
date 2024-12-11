@@ -17,9 +17,13 @@ export default {
           '0%': { opacity: '0', transform: 'translateY(35px)'},
           '100%': { opacity: '1', transform: 'translateY(0px)'},
         },
+        fadeUpOut: {
+          '0%': { opacity: '1', transform: 'translateY(0px)'},
+          '100%': { opacity: '0', transform: 'translateY(-35px)'},
+        },
         fadeDown: {
-          '0%': { opacity: '0', transform: 'translateY(-10px)'},
-          '100%': { opacity: '0', transform: 'translateY(0px)'},
+          '0%': { opacity: '0', transform: 'translateY(-35px)'},
+          '100%': { opacity: '1', transform: 'translateY(0px)'},
         }
       },
       animation: {
@@ -33,6 +37,8 @@ export default {
         fadeDownLong: 'fadeDown 0.6s ease-out',
         fadeDownVeryLong: 'fadeDown 0.9s ease-out',
         fadeDownLast: 'fadeDown 1.2s ease-out',
+
+        fadeUpOut: 'fadeUpOut 0.3s ease-out',
 
         pulseOne: 'pulse 0.7s',
       },

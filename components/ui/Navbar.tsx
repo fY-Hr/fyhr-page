@@ -3,6 +3,9 @@
 import { usePathname } from "next/navigation"
 import Link from "next/link";
 import {clsx} from 'clsx';
+import { RxHamburgerMenu } from "react-icons/rx";
+import { useState } from "react";
+import PopupMenu from "./PopupMenu";
 
 
 
@@ -10,7 +13,12 @@ export default function Navbar(){
 
     const pathname = usePathname();
     const homePage = pathname === '/';
-    
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+    const handleClick = () => {
+        isPopupOpen === true? setIsPopupOpen(false) : setIsPopupOpen(true);
+    };
+
     return(
         <>
         {!homePage && 
@@ -25,6 +33,14 @@ export default function Navbar(){
                     <Link href="/experiences" className={clsx('text-xl px-2 hover:bg-blue-900 hover:text-white border', {
                         'bg-blue-900 text-white': pathname === '/experiences'
                     })}>Experiences</Link>
+                </div>
+                <div className="burger self-center sm:hidden">
+                    <button className="self-center text-xl border border-blue-900 p-2 -m-5 hover:text-white hover:bg-blue-900" onClick={handleClick}><RxHamburgerMenu /></button>
+                    {isPopupOpen && 
+                        <PopupMenu handleClick={handleClick} />
+                    }
+                    
+                    
                 </div>
             </div>
         </nav>
