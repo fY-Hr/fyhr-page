@@ -15,7 +15,7 @@ export default function Works(){
         <div>
             <main className="my-8">
                 <div className="animate-fadeUp border-b-2 border-blue-900 pb-4">
-                    <h1 className="text-2xl"><IoTelescope /></h1><h1 className="font-bold text-3xl text-white bg-gradient-to-r from-blue-900 to-slate-100">Works.</h1>
+                    <h1 className="text-2xl"><IoTelescope /></h1><h1 className="font-semibold text-3xl text-white bg-gradient-to-r from-blue-900 to-transparent">Works.</h1>
                     <SectionCard 
                         title=""
                         subtitle="My slowly and lovely progress."
