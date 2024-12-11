@@ -1,6 +1,5 @@
 'use client'
 
-import Footer from "@/components/ui/Footer";
 import Image from "next/image";
 import SectionCard from "@/components/ui/SectionCard";
 import DeveloperTools from "@/components/section/DeveloperTools";
