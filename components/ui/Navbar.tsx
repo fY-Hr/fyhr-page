@@ -16,7 +16,7 @@ export default function Navbar(){
     const [isPopupOpen, setIsPopupOpen] = useState(false);
 
     const handleClick = () => {
-        isPopupOpen === true? setIsPopupOpen(false) : setIsPopupOpen(true);
+        setIsPopupOpen(!isPopupOpen)
     };
 
     return(
