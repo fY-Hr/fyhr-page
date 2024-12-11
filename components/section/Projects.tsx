@@ -4,7 +4,8 @@ interface Work {
     title: string,
     description: string,
     source: string,
-    demo: string
+    demo: string,
+    media: string
 
 }
 
@@ -13,13 +14,15 @@ const works: Work[] = [
         title: 'simple-pomodoro',
         description: 'Simple pomodoro timer that i make for exercise.',
         source: 'https://github.com/fY-Hr/simple-pomodoro-app',
-        demo: 'https://simple-pomodoro-ecru.vercel.app/'
+        demo: 'https://simple-pomodoro-ecru.vercel.app/',
+        media: 'desktop'
     },
     {
         title: 'flow-tracker',
         description: 'A simple app for managing your taks.',
         source: 'https://github.com/fY-Hr/flow-tracker',
-        demo: ''
+        demo: '',
+        media: 'desktop'
     }
 ]
 
@@ -34,6 +37,7 @@ export default function Projects(){
                     description={work.description}
                     source={work.source}
                     demo={work.demo}
+                    media={work.media}
                 />
             ))}
          

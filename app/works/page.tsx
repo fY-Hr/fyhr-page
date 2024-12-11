@@ -6,7 +6,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: 'Works',
-  description: 'fY-Hr Personal Page'
+  description: 'fY-Hr works page'
 }
 
 export default function Works(){
@@ -15,12 +15,13 @@ export default function Works(){
         <div>
             <main className="my-8">
                 <div className="animate-fadeUp border-b-2 border-blue-900 pb-4">
-                    <IoTelescope /><h1 className="font-bold text-xl text-white bg-gradient-to-r from-blue-900 to-slate-100">Works.</h1>
+                    <h1 className="text-2xl"><IoTelescope /></h1><h1 className="font-bold text-3xl text-white bg-gradient-to-r from-blue-900 to-slate-100">Works.</h1>
                     <SectionCard 
                         title=""
                         subtitle="My slowly and lovely progress."
                         description="Some of these is not really optimized, but it's a part of my work, so i proudly share it."
                     />
+                    <p> (The Icon on the top right of the card indicate the responsiveability). </p>
                 </div>
                 <div className="mt-7 animate-fadeUpLong">
                     <Projects />
