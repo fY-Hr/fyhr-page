@@ -1,4 +1,10 @@
 import { DiGitBranch } from "react-icons/di"
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'Experiences',
+  description: 'fY-Hr experiences page'
+}
 
 export default function Experiences(){
     return(
