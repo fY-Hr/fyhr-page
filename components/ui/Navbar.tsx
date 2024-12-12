@@ -41,7 +41,7 @@ export default function Navbar() {
         <>
             {!homePage && (
                 <>
-                    <nav className="pt-4 pb-2 fixed bg-white/55 w-screen backdrop-blur-md">
+                    <nav className="pt-4 pb-2 fixed bg-white/55 w-screen backdrop-blur-lg">
                         <div className="nav-content container mx-auto lg:px-32 xl:px-64 px-7 flex justify-between">
                             <Link href="/me" className="text-lg md:text-2xl font-semibold hover:text-blue-500">
                                 fY-Hr
@@ -73,7 +73,7 @@ export default function Navbar() {
                                 </div>
                                 <PopupMenu
                                     handleClick={() => setIsPopupOpen(false)}
-                                    style={`absolute top-14 z-50 w-32 bg-white/55 backdrop-blur-md border-blue-900 border flex justify-center items-center transition-all duration-700 ${
+                                    style={`absolute top-14 z-50 w-32 bg-white/55 backdrop-blur-lg border-blue-900 border flex justify-center items-center transition-all duration-700 ${
                                         isPopupOpen ? 'right-6' : 'opacity-0 delay-0 -right-96'
                                     }`}
                                 />
