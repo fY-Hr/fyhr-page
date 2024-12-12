@@ -42,7 +42,7 @@ export default function Me(){
                         subtitle="Tools that i mainly use as a Web Developer."
                         description="I don't really master all of these, but i can use it. Beside of that, I'd love to learn more :)"
                     />
-                    <div className="flex gap-2 mt-3 w-full h-full overflow-auto">
+                    <div className="flex gap-2 mt-3 w-full h-full overflow-auto animate-fadeUpLast">
                         <DeveloperTools />
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Me(){
                         subtitle="It is my pleasure to connect with more people."
                         description=""
                     />
-                    <div className="flex">
+                    <div className="flex animate-fadeUpVeryLast">
                         <ContactMe />
                     </div>
                 </div>
