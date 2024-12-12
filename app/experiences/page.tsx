@@ -12,7 +12,7 @@ export default function Experiences(){
             <div className="my-8">
                 <div className="border-b-2 pb-4">
                     <h1 className="text-xl font-bold-3 flex items-center gap-2 animate-fadeUpLong"><span className="font-bold">My Experiences</span> (and my Bio).<span className="text-2xl animate-fadeUpVeryLong"><DiGitBranch /></span></h1>
-                    <h2 className="text-md text-blue-500 font-bold animate-fadeUpVeryLong">My Software-Engineering learning journey.</h2>
+                    <h2 className="text-md text-blue-500 font-bold animate-fadeUpVeryLong">My Software-Engineering journey.</h2>
                 </div>
                 <div>
                     <div className="flex gap-4 mt-5 animate-fadeUpVeryLong">
