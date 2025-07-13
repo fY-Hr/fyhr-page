@@ -43,7 +43,7 @@ export default function Navbar() {
                 <>
                     <nav className="pt-4 pb-2 fixed bg-white/55 w-screen backdrop-blur-lg">
                         <div className="nav-content container mx-auto lg:px-32 xl:px-64 px-7 flex justify-between">
-                            <Link href="/me" className="text-lg md:text-2xl font-semibold hover:text-blue-500" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                            <Link href="/me" className="text-lg md:text-2xl font-semibold hover:text-blue-500">
                                 fY-Hr
                             </Link>
                             <div className="hidden sm:flex gap-5 items-center">
@@ -52,7 +52,6 @@ export default function Navbar() {
                                     className={clsx('text-xl px-2 hover:bg-blue-900 hover:text-white border', {
                                         'bg-blue-900 text-white': pathname === '/works'
                                     })}
-                                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
                                 >
                                     Works
                                 </Link>
@@ -61,7 +60,7 @@ export default function Navbar() {
                                     className={clsx('text-xl px-2 hover:bg-blue-900 hover:text-white border', {
                                         'bg-blue-900 text-white': pathname === '/experiences'
                                     })}
-                                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}
+
                                 >
                                     Experiences
                                 </Link>
@@ -76,7 +75,6 @@ export default function Navbar() {
                                 <PopupMenu
                                     handleClick={() => {
                                         setIsPopupOpen(false)
-                                        window.scrollTo({ top: 0, behavior: 'smooth'})
                                     }}
                                     style={`absolute top-14 z-50 w-32 bg-white/55 backdrop-blur-lg border-blue-900 border flex justify-center items-center transition-all duration-700 ${
                                         isPopupOpen ? 'right-6' : 'opacity-0 delay-0 -right-96'
