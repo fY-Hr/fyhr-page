@@ -23,6 +23,13 @@ const works: Work[] = [
         source: 'https://github.com/fY-Hr/flow-tracker',
         demo: '',
         media: 'desktop'
+    },
+    {
+        title: 'seragam-app-v2',
+        description: 'An new version of seragam-app that is developed by my school team and me.',
+        source: 'https://github.com/abhipraya-kusuma-dev/seragam-app-v2',
+        demo: '',
+        media: 'desktop'
     }
 ]
 
