@@ -23,10 +23,10 @@ export default function PageContent(){
                     </div>                
                     <div className="flex gap-4 mt-4 animate-fadeUpLast">
                         <div>
-                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 ">2022 - 2025</h1>
+                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 ">2025</h1>
                         </div>
                         <div>
-                            <p className="self-center text-gray-600">Entering and Graduated from vocational highschool, majoring Software-Engineering.</p>
+                            <p className="self-center text-gray-600">Graduated from vocational highschool, majoring Software-Engineering.</p>
                         </div>
                     </div>                
                     <div className="flex gap-4 mt-4 animate-fadeUpVeryLast">
