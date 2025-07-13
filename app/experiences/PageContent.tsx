@@ -23,6 +23,22 @@ export default function PageContent(){
                     </div>                
                     <div className="flex gap-4 mt-4 animate-fadeUpLast">
                         <div>
+                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 ">2022</h1>
+                        </div>
+                        <div>
+                            <p className="self-center text-gray-600">Entering vocational highschool, majoring Software-Engineering.</p>
+                        </div>
+                    </div>                
+                    <div className="flex gap-4 mt-4 animate-fadeUpLast">
+                        <div>
+                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 whitespace-nowrap">2023 - 2024</h1>
+                        </div>
+                        <div>
+                            <p className="self-center text-gray-600"><span className="font-bold">Junior Programmer</span>&nbsp;| Internship at PT. Biggy Cemerlang.</p>
+                        </div>
+                    </div>                
+                    <div className="flex gap-4 mt-4 animate-fadeUpLast">
+                        <div>
                             <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 ">2025</h1>
                         </div>
                         <div>
@@ -36,7 +52,7 @@ export default function PageContent(){
                         <div>
                             <p className="self-center text-gray-600"><span className="font-bold">IT Support</span>&nbsp;| at vocational highschool.</p>
                         </div>
-                    </div>                
+                    </div>          
                 </>
             </div> 
     )
