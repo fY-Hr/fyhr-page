@@ -41,7 +41,7 @@ export default function PageContent(){
                         subtitle="Tools that i mainly use as a Web Developer."
                         description="I don't really master all of these, but i can use it. Beside of that, I'd love to learn more :)"
                     />
-                    <div className="flex gap-2 mt-3 w-full h-full overflow-auto animate-fadeUpLast">
+                    <div className="flex gap-2 mt-3 w-auto h-full overflow-x-auto animate-fadeUpLast">
                         <DeveloperTools />
                     </div>
                 </div>
