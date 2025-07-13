@@ -1,5 +1,5 @@
 export default function DeveloperTools(){
-    const tools = ['NextJS', 'Tailwind', 'NodeJS', 'Laravel', 'Figma', 'VSC', 'Git']
+    const tools = ['ReactJS', 'Laravel', 'NextJS', 'Tailwind CSS', 'InertiaJS', 'Shadcn']
     return(
         <>
             {tools.map((tool: string, index: number) => (

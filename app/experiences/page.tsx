@@ -17,7 +17,7 @@ export default function Experiences(){
                 <div>
                     <div className="flex gap-4 mt-5 animate-fadeUpVeryLong">
                         <div>
-                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white from-blue-900 to-white">2007</h1>
+                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 ">2007</h1>
                         </div>                        
                         <div>
                             <p className="self-center text-gray-600">Born in Jakarta, Indonesia.</p>
@@ -25,7 +25,7 @@ export default function Experiences(){
                     </div>                
                     <div className="flex gap-4 mt-4 animate-fadeUpLast">
                         <div>
-                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white from-blue-900 to-white">2022 - Present</h1>
+                            <h1 className="text-lg font-bold pl-2 pr-4 bg-gradient-to-r text-white bg-blue-900 ">2022 - Present</h1>
                         </div>
                         <div>
                             <p className="self-center text-gray-600">Entering vocational highschool, majoring Software-Engineering. Currently Progressing for my graduation.</p>

@@ -16,8 +16,8 @@ export default function Me(){
       <>
         <div>
             <main className="my-8">
-                <div className="hero-container w-full h-40 overflow-hidden animate-fadeUp">
-                    <Image src="/yoneyama.jpeg" priority={true} width={600} height={600} alt="yoneyama art" className="w-full object-cover" />
+                <div className="hero-container w-full overflow-hidden animate-fadeUp">
+                    <Image src="/yoneyama.webp" priority={true} width={600} height={600} alt="yoneyama art" className="h-full w-full object-contain" />
                 </div>
                 <h1 className="mb-7 text-sm animate-fadeUp">yoneyama mai art. (my fav illustrator)</h1>
 
