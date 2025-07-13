@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backdropBlur: {
+        fix: '12px',
+      },
       keyframes: {
         fadeUp: {
           '0%': { opacity: '0', transform: 'translateY(45px)'},

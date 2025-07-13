@@ -76,7 +76,7 @@ export default function Navbar() {
                                     handleClick={() => {
                                         setIsPopupOpen(false)
                                     }}
-                                    style={`absolute top-14 z-50 w-32 bg-white/55 backdrop-blur-lg border-blue-900 border flex justify-center items-center transition-all duration-700 ${
+                                    style={`absolute top-14 z-50 w-32 bg-white/55 backdrop-blur-fix border-blue-900 border flex justify-center items-center transition-all duration-700 ${
                                         isPopupOpen ? 'right-6' : 'opacity-0 delay-0 -right-96'
                                     }`}
                                 />
